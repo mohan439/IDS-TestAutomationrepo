@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FashiongoTestsuite" parallel = 'tests' thread-count="1" preserve-order = "true">
+
+<test name="LoginpageTest">
+<classes>
+<class name="com.ktpl.testcases.LoginpageTest"></class>
+</classes>
+</test>
+
+<test name="HeadersectionTest">
+<classes>
+<class name="com.ktpl.testcases.HeadersectionTest"></class>
+</classes>
+</test>
+
+</suite>

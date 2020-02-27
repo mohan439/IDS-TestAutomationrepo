@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-FashiongoTestsuite">
+              <span class="suite-name border-failed">FashiongoTestsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-FashiongoTestsuite">
+                    <span>D:\Selenium\Magento_space\FashiongoTestsuite\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-FashiongoTestsuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-FashiongoTestsuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-FashiongoTestsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-FashiongoTestsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FashiongoTestsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-FashiongoTestsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FashiongoTestsuite" class="hide-methods failed suite-FashiongoTestsuite"> (hide)</a> <!-- hide-methods failed suite-FashiongoTestsuite -->
+                      <a href="#" panel-name="suite-FashiongoTestsuite" class="show-methods failed suite-FashiongoTestsuite"> (show)</a> <!-- show-methods failed suite-FashiongoTestsuite -->
+                    </span>
+                    <div class="method-list-content failed suite-FashiongoTestsuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FashiongoTestsuite" title="com.ktpl.testcases.LoginpageTest" hash-for-method="CreateaccountlinkTest">CreateaccountlinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FashiongoTestsuite" title="com.ktpl.testcases.LoginpageTest" hash-for-method="CustomerloginTest">CustomerloginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FashiongoTestsuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FashiongoTestsuite" class="hide-methods passed suite-FashiongoTestsuite"> (hide)</a> <!-- hide-methods passed suite-FashiongoTestsuite -->
+                      <a href="#" panel-name="suite-FashiongoTestsuite" class="show-methods passed suite-FashiongoTestsuite"> (show)</a> <!-- show-methods passed suite-FashiongoTestsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FashiongoTestsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FashiongoTestsuite" title="com.ktpl.testcases.LoginpageTest" hash-for-method="LoginpagetitleTest">LoginpagetitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FashiongoTestsuite" title="com.ktpl.testcases.HeadersectionTest" hash-for-method="MyaccounticonTest">MyaccounticonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FashiongoTestsuite" title="com.ktpl.testcases.LoginpageTest" hash-for-method="forgotpasswordlinkTest">forgotpasswordlinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FashiongoTestsuite" title="com.ktpl.testcases.HeadersectionTest" hash-for-method="hearderpromotextTest">hearderpromotextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FashiongoTestsuite" title="com.ktpl.testcases.HeadersectionTest" hash-for-method="storelogotest">storelogotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FashiongoTestsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FashiongoTestsuite" class="panel FashiongoTestsuite">
+          <div class="suite-FashiongoTestsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ktpl.testcases.LoginpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateaccountlinkTest">
+                  </a> <!-- CreateaccountlinkTest -->
+                  <span class="method-name">CreateaccountlinkTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://fashiongo.solution.magentoprojects.net/customer/account/create/&quot; class=&quot;action create primary&quot;&gt;...&lt;/a&gt; is not clickable at point (823, 568). Other element would receive the click: &lt;div class=&quot;modal-inner-wrap&quot; data-role=&quot;focusable-scope&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=79.0.3945.130)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RAMMOHANN-PC&apos;, ip: &apos;10.16.16.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_72&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\RAMMOH~1.NIM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f5c996603e4931cf83f980ed4d6c5e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.ktpl.pages.Loginpage.clickonCreateAccountLink(Loginpage.java:37)
+	at com.ktpl.testcases.LoginpageTest.CreateaccountlinkTest(LoginpageTest.java:70)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CustomerloginTest">
+                  </a> <!-- CustomerloginTest -->
+                  <span class="method-name">CustomerloginTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: login is not sucessfull expected [Home Page] but found [Customer Login]
+	at com.ktpl.testcases.LoginpageTest.CustomerloginTest(LoginpageTest.java:54)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FashiongoTestsuite-class-failed -->
+          <div class="suite-FashiongoTestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ktpl.testcases.LoginpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginpagetitleTest">
+                  </a> <!-- LoginpagetitleTest -->
+                  <span class="method-name">LoginpagetitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotpasswordlinkTest">
+                  </a> <!-- forgotpasswordlinkTest -->
+                  <span class="method-name">forgotpasswordlinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FashiongoTestsuite-class-passed -->
+          <div class="suite-FashiongoTestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ktpl.testcases.HeadersectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyaccounticonTest">
+                  </a> <!-- MyaccounticonTest -->
+                  <span class="method-name">MyaccounticonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hearderpromotextTest">
+                  </a> <!-- hearderpromotextTest -->
+                  <span class="method-name">hearderpromotextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storelogotest">
+                  </a> <!-- storelogotest -->
+                  <span class="method-name">storelogotest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FashiongoTestsuite-class-passed -->
+        </div> <!-- panel FashiongoTestsuite -->
+        <div panel-name="test-xml-FashiongoTestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium\Magento_space\FashiongoTestsuite\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FashiongoTestsuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;LoginpageTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ktpl.testcases.LoginpageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginpageTest --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;HeadersectionTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ktpl.testcases.HeadersectionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HeadersectionTest --&gt;
+&lt;/suite&gt; &lt;!-- FashiongoTestsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FashiongoTestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FashiongoTestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginpageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">HeadersectionTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FashiongoTestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FashiongoTestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FashiongoTestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FashiongoTestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FashiongoTestsuite');
+function tableData_FashiongoTestsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'forgotpasswordlinkTest')
+data.setCell(0, 2, 'com.ktpl.testcases.LoginpageTest')
+data.setCell(0, 3, 2882);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CreateaccountlinkTest')
+data.setCell(1, 2, 'com.ktpl.testcases.LoginpageTest')
+data.setCell(1, 3, 1125);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginpagetitleTest')
+data.setCell(2, 2, 'com.ktpl.testcases.LoginpageTest')
+data.setCell(2, 3, 748);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CustomerloginTest')
+data.setCell(3, 2, 'com.ktpl.testcases.LoginpageTest')
+data.setCell(3, 3, 684);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'storelogotest')
+data.setCell(4, 2, 'com.ktpl.testcases.HeadersectionTest')
+data.setCell(4, 3, 343);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'MyaccounticonTest')
+data.setCell(5, 2, 'com.ktpl.testcases.HeadersectionTest')
+data.setCell(5, 3, 166);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'hearderpromotextTest')
+data.setCell(6, 2, 'com.ktpl.testcases.HeadersectionTest')
+data.setCell(6, 3, 111);
+window.suiteTableData['FashiongoTestsuite']= { tableData: data, tableDiv: 'times-div-FashiongoTestsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-FashiongoTestsuite">
+              </div> <!-- times-div-FashiongoTestsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FashiongoTestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FashiongoTestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FashiongoTestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FashiongoTestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ktpl.testcases.LoginpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiateextentreports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initiate</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginpagetitleTest</span>
+                <span class="method-start">28039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentteardown([TestResult name=LoginpagetitleTest status=SUCCESS method=LoginpageTest.LoginpagetitleTest()[pri:1, ...)</span>
+                <span class="method-start">28803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initiate</span>
+                <span class="method-start">30223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CustomerloginTest</span>
+                <span class="method-start">53283 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentteardown([TestResult name=CustomerloginTest status=FAILURE method=LoginpageTest.CustomerloginTest()[pri:2, in...)</span>
+                <span class="method-start">53974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initiate</span>
+                <span class="method-start">55730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotpasswordlinkTest</span>
+                <span class="method-start">75278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentteardown([TestResult name=forgotpasswordlinkTest status=SUCCESS method=LoginpageTest.forgotpasswordlinkTest()...)</span>
+                <span class="method-start">78162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initiate</span>
+                <span class="method-start">79534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CreateaccountlinkTest</span>
+                <span class="method-start">101921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentteardown([TestResult name=CreateaccountlinkTest status=FAILURE method=LoginpageTest.CreateaccountlinkTest()[p...)</span>
+                <span class="method-start">103051 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ktpl.testcases.HeadersectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initiate</span>
+                <span class="method-start">104713 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">storelogotest</span>
+                <span class="method-start">145260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentteardown([TestResult name=storelogotest status=SUCCESS method=HeadersectionTest.storelogotest()[pri:1, instan...)</span>
+                <span class="method-start">145606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">hearderpromotextTest</span>
+                <span class="method-start">145617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentteardown([TestResult name=hearderpromotextTest status=SUCCESS method=HeadersectionTest.hearderpromotextTest()...)</span>
+                <span class="method-start">145734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">MyaccounticonTest</span>
+                <span class="method-start">145738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">extentteardown([TestResult name=MyaccounticonTest status=SUCCESS method=HeadersectionTest.MyaccounticonTest()[pri:3...)</span>
+                <span class="method-start">145909 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
