@@ -17,8 +17,7 @@ public class HomepageTest extends Baseinit {
 	
 	@BeforeTest
 	public void intiatehome() throws IOException {
-		startup("loginpageurl");
-		Loginpage = new Loginpage();
+		startup("StoreURL");
 		Homepage = new Homepage();
 	}
 	

@@ -17,11 +17,12 @@ public class HeadersectionTest extends Baseinit {
 	Headersection headersection;
 
 	@BeforeTest
-	public void initiate() throws IOException {
+	public void initiate() throws IOException, InterruptedException {
 		UtilityMethods.extentreports();
 		startup("StoreURL");
 		headersection = new Headersection();
-		UtilityMethods.closeNewsletterpopup();
+		Thread.sleep(5000);
+		UtilityMethods.Entersite();
 	}
 
 	@Test(priority = 1)
@@ -32,14 +33,13 @@ public class HeadersectionTest extends Baseinit {
 		extent.flush();
 	}
 
-	@Test(priority = 2)
-	public void hearderpromotextTest() {
-		test = extent.createTest("header promo Text test");
-		String Headerpromotext = headersection.CheckHeaderpromotext();
-		Assert.assertTrue(Headerpromotext.contains("Shop with Discount"));
-		extent.flush();
-	}
-	
+	/*
+	 * @Test(priority = 2) public void hearderpromotextTest() { test =
+	 * extent.createTest("header promo Text test"); String Headerpromotext =
+	 * headersection.CheckHeaderpromotext();
+	 * Assert.assertTrue(Headerpromotext.contains("Shop with Discount"));
+	 * extent.flush(); }
+	 */
 	@Test(priority=3)
 	public void MyaccounticonTest() {
 		test =extent.createTest("MyAccount icon test");

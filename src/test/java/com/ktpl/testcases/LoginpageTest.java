@@ -33,10 +33,12 @@ public class LoginpageTest extends Baseinit {
 	}
 
 	@BeforeMethod
-	public void initiate() throws IOException {
+	public void initiate() throws IOException, InterruptedException {
 		startup("loginpageurl");
-		UtilityMethods.closeNewsletterpopup();
+		//UtilityMethods.closeNewsletterpopup();
 		Loginpage = new Loginpage();
+		Thread.sleep(5000);
+		UtilityMethods.Entersite();
 	}
 
 	@Test(priority = 1)

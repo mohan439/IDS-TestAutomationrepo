@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="FashiongoTestsuite" duration-ms="145932" started-at="2020-02-26T20:02:00 IST" finished-at="2020-02-26T20:04:26 IST">
+  <suite name="Default suite" duration-ms="106910" started-at="2020-06-25T22:07:41 IST" finished-at="2020-06-25T22:09:28 IST">
     <groups>
     </groups>
-    <test name="LoginpageTest" duration-ms="104556" started-at="2020-02-26T20:02:00 IST" finished-at="2020-02-26T20:03:45 IST">
+    <test name="Default test" duration-ms="106910" started-at="2020-06-25T22:07:41 IST" finished-at="2020-06-25T22:09:28 IST">
       <class name="com.ktpl.testcases.LoginpageTest">
-        <test-method status="PASS" signature="initiateextentreports()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiateextentreports" is-config="true" duration-ms="237" started-at="2020-02-26T20:02:00 IST" finished-at="2020-02-26T20:02:01 IST">
+        <test-method status="PASS" signature="initiateextentreports()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiateextentreports" is-config="true" duration-ms="246" started-at="2020-06-25T22:07:41 IST" finished-at="2020-06-25T22:07:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateextentreports -->
-        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="27774" started-at="2020-02-26T20:02:01 IST" finished-at="2020-02-26T20:02:28 IST">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="20398" started-at="2020-06-25T22:07:41 IST" finished-at="2020-06-25T22:08:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method status="PASS" signature="LoginpagetitleTest()[pri:1, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="LoginpagetitleTest" duration-ms="748" started-at="2020-02-26T20:02:28 IST" finished-at="2020-02-26T20:02:29 IST">
+        <test-method status="PASS" signature="LoginpagetitleTest()[pri:1, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="LoginpagetitleTest" duration-ms="645" started-at="2020-06-25T22:08:01 IST" finished-at="2020-06-25T22:08:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginpagetitleTest -->
-        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1413" started-at="2020-02-26T20:02:29 IST" finished-at="2020-02-26T20:02:31 IST">
+        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1552" started-at="2020-06-25T22:08:02 IST" finished-at="2020-06-25T22:08:04 IST">
           <params>
             <param index="0">
               <value>
@@ -30,22 +30,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentteardown -->
-        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="23060" started-at="2020-02-26T20:02:31 IST" finished-at="2020-02-26T20:02:54 IST">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="19503" started-at="2020-06-25T22:08:04 IST" finished-at="2020-06-25T22:08:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method status="FAIL" signature="CustomerloginTest()[pri:2, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="CustomerloginTest" duration-ms="684" started-at="2020-02-26T20:02:54 IST" finished-at="2020-02-26T20:02:54 IST">
+        <test-method status="FAIL" signature="CustomerloginTest()[pri:2, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="CustomerloginTest" duration-ms="12992" started-at="2020-06-25T22:08:23 IST" finished-at="2020-06-25T22:08:36 IST">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[login is not sucessfull expected [Home Page] but found [Customer Login]]]>
+              <![CDATA[login is not sucessfull expected [Home Page] but found [My Account]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: login is not sucessfull expected [Home Page] but found [Customer Login]
+              <![CDATA[java.lang.AssertionError: login is not sucessfull expected [Home Page] but found [My Account]
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
-at com.ktpl.testcases.LoginpageTest.CustomerloginTest(LoginpageTest.java:54)
+at com.ktpl.testcases.LoginpageTest.CustomerloginTest(LoginpageTest.java:56)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -62,20 +62,25 @@ at java.util.ArrayList.forEach(Unknown Source)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerloginTest -->
-        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1756" started-at="2020-02-26T20:02:54 IST" finished-at="2020-02-26T20:02:56 IST">
+        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1775" started-at="2020-06-25T22:08:36 IST" finished-at="2020-06-25T22:08:38 IST">
           <params>
             <param index="0">
               <value>
@@ -86,48 +91,29 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentteardown -->
-        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="19547" started-at="2020-02-26T20:02:56 IST" finished-at="2020-02-26T20:03:16 IST">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="18989" started-at="2020-06-25T22:08:38 IST" finished-at="2020-06-25T22:08:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiate -->
-        <test-method status="PASS" signature="forgotpasswordlinkTest()[pri:3, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="forgotpasswordlinkTest" duration-ms="2882" started-at="2020-02-26T20:03:16 IST" finished-at="2020-02-26T20:03:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotpasswordlinkTest -->
-        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1371" started-at="2020-02-26T20:03:19 IST" finished-at="2020-02-26T20:03:20 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=forgotpasswordlinkTest status=SUCCESS method=LoginpageTest.forgotpasswordlinkTest()[pri:3, instance:com.ktpl.testcases.LoginpageTest@30b8a058] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentteardown -->
-        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="22387" started-at="2020-02-26T20:03:20 IST" finished-at="2020-02-26T20:03:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initiate -->
-        <test-method status="FAIL" signature="CreateaccountlinkTest()[pri:4, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="CreateaccountlinkTest" duration-ms="1125" started-at="2020-02-26T20:03:42 IST" finished-at="2020-02-26T20:03:43 IST">
+        <test-method status="FAIL" signature="forgotpasswordlinkTest()[pri:3, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="forgotpasswordlinkTest" duration-ms="1136" started-at="2020-06-25T22:08:57 IST" finished-at="2020-06-25T22:08:58 IST">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <a href="https://fashiongo.solution.magentoprojects.net/customer/account/create/" class="action create primary">...</a> is not clickable at point (823, 568). Other element would receive the click: <div class="modal-inner-wrap" data-role="focusable-scope">...</div>
-  (Session info: chrome=79.0.3945.130)
+              <![CDATA[element click intercepted: Element <span>...</span> is not clickable at point (590, 608). Other element would receive the click: <div class="modals-overlay" style="z-index: 9001;"></div>
+  (Session info: chrome=83.0.4103.116)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RAMMOHANN-PC', ip: '10.16.16.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_72'
+System info: host: 'RAMMOHANN-PC', ip: '192.168.43.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_72'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\RAMMOH~1.NIM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f5c996603e4931cf83f980ed4d6c5e0]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\RAMMOH~1.NIM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51435}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8fbf3df060ad4b23558ef4e350c5589a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://fashiongo.solution.magentoprojects.net/customer/account/create/" class="action create primary">...</a> is not clickable at point (823, 568). Other element would receive the click: <div class="modal-inner-wrap" data-role="focusable-scope">...</div>
-  (Session info: chrome=79.0.3945.130)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (590, 608). Other element would receive the click: <div class="modals-overlay" style="z-index: 9001;"></div>
+  (Session info: chrome=83.0.4103.116)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'RAMMOHANN-PC', ip: '10.16.16.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_72'
+System info: host: 'RAMMOHANN-PC', ip: '192.168.43.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_72'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\RAMMOH~1.NIM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f5c996603e4931cf83f980ed4d6c5e0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\RAMMOH~1.NIM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51435}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8fbf3df060ad4b23558ef4e350c5589a
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -146,8 +132,8 @@ at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.ktpl.pages.Loginpage.clickonCreateAccountLink(Loginpage.java:37)
-at com.ktpl.testcases.LoginpageTest.CreateaccountlinkTest(LoginpageTest.java:70)
+at com.ktpl.pages.Loginpage.clickonforgotpasswordlink(Loginpage.java:42)
+at com.ktpl.testcases.LoginpageTest.forgotpasswordlinkTest(LoginpageTest.java:63)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -164,24 +150,48 @@ at java.util.ArrayList.forEach(Unknown Source)
 at org.testng.TestRunner.privateRun(TestRunner.java:770)
 at org.testng.TestRunner.run(TestRunner.java:591)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateaccountlinkTest -->
-        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1493" started-at="2020-02-26T20:03:43 IST" finished-at="2020-02-26T20:03:45 IST">
+        </test-method> <!-- forgotpasswordlinkTest -->
+        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1505" started-at="2020-06-25T22:08:58 IST" finished-at="2020-06-25T22:08:59 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CreateaccountlinkTest status=FAILURE method=LoginpageTest.CreateaccountlinkTest()[pri:4, instance:com.ktpl.testcases.LoginpageTest@30b8a058] output={null}]]]>
+                <![CDATA[[TestResult name=forgotpasswordlinkTest status=FAILURE method=LoginpageTest.forgotpasswordlinkTest()[pri:3, instance:com.ktpl.testcases.LoginpageTest@30b8a058] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentteardown -->
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="initiate" is-config="true" duration-ms="18603" started-at="2020-06-25T22:08:59 IST" finished-at="2020-06-25T22:09:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="CreateaccountlinkTest()[pri:4, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="CreateaccountlinkTest" duration-ms="7776" started-at="2020-06-25T22:09:18 IST" finished-at="2020-06-25T22:09:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateaccountlinkTest -->
+        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.LoginpageTest@30b8a058]" name="extentteardown" is-config="true" duration-ms="1680" started-at="2020-06-25T22:09:26 IST" finished-at="2020-06-25T22:09:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateaccountlinkTest status=SUCCESS method=LoginpageTest.CreateaccountlinkTest()[pri:4, instance:com.ktpl.testcases.LoginpageTest@30b8a058] output={null}]]]>
               </value>
             </param>
           </params>
@@ -189,59 +199,6 @@ at java.lang.Thread.run(Unknown Source)
           </reporter-output>
         </test-method> <!-- extentteardown -->
       </class> <!-- com.ktpl.testcases.LoginpageTest -->
-    </test> <!-- LoginpageTest -->
-    <test name="HeadersectionTest" duration-ms="41212" started-at="2020-02-26T20:03:45 IST" finished-at="2020-02-26T20:04:26 IST">
-      <class name="com.ktpl.testcases.HeadersectionTest">
-        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ktpl.testcases.HeadersectionTest@167fdd33]" name="initiate" is-config="true" duration-ms="40546" started-at="2020-02-26T20:03:45 IST" finished-at="2020-02-26T20:04:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initiate -->
-        <test-method status="PASS" signature="storelogotest()[pri:1, instance:com.ktpl.testcases.HeadersectionTest@167fdd33]" name="storelogotest" duration-ms="343" started-at="2020-02-26T20:04:26 IST" finished-at="2020-02-26T20:04:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- storelogotest -->
-        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.HeadersectionTest@167fdd33]" name="extentteardown" is-config="true" duration-ms="1" started-at="2020-02-26T20:04:26 IST" finished-at="2020-02-26T20:04:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=storelogotest status=SUCCESS method=HeadersectionTest.storelogotest()[pri:1, instance:com.ktpl.testcases.HeadersectionTest@167fdd33] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentteardown -->
-        <test-method status="PASS" signature="hearderpromotextTest()[pri:2, instance:com.ktpl.testcases.HeadersectionTest@167fdd33]" name="hearderpromotextTest" duration-ms="111" started-at="2020-02-26T20:04:26 IST" finished-at="2020-02-26T20:04:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hearderpromotextTest -->
-        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.HeadersectionTest@167fdd33]" name="extentteardown" is-config="true" duration-ms="3" started-at="2020-02-26T20:04:26 IST" finished-at="2020-02-26T20:04:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=hearderpromotextTest status=SUCCESS method=HeadersectionTest.hearderpromotextTest()[pri:2, instance:com.ktpl.testcases.HeadersectionTest@167fdd33] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentteardown -->
-        <test-method status="PASS" signature="MyaccounticonTest()[pri:3, instance:com.ktpl.testcases.HeadersectionTest@167fdd33]" name="MyaccounticonTest" duration-ms="166" started-at="2020-02-26T20:04:26 IST" finished-at="2020-02-26T20:04:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MyaccounticonTest -->
-        <test-method status="PASS" signature="extentteardown(org.testng.ITestResult)[pri:0, instance:com.ktpl.testcases.HeadersectionTest@167fdd33]" name="extentteardown" is-config="true" duration-ms="12" started-at="2020-02-26T20:04:26 IST" finished-at="2020-02-26T20:04:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MyaccounticonTest status=SUCCESS method=HeadersectionTest.MyaccounticonTest()[pri:3, instance:com.ktpl.testcases.HeadersectionTest@167fdd33] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentteardown -->
-      </class> <!-- com.ktpl.testcases.HeadersectionTest -->
-    </test> <!-- HeadersectionTest -->
-  </suite> <!-- FashiongoTestsuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

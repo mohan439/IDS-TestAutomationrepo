@@ -4,13 +4,12 @@ import java.io.File;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriverException;
 import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.ktpl.pages.Newsletterpopup;
+import com.ktpl.pages.Ageverificationpopup;
 import com.ktpl.parentbase.Baseinit;
 
 public class UtilityMethods extends Baseinit {
@@ -21,11 +20,13 @@ public class UtilityMethods extends Baseinit {
 	// Extent report
 	
 	//Close newsletter pop up
-	public static void closeNewsletterpopup() {
-		Newsletterpopup Npopup = new Newsletterpopup();
+	public static void Entersite() {
+		Ageverificationpopup Agepopup = new Ageverificationpopup();
 		try {
-		Npopup.closenewsletterpopup();
-		System.out.println("popup closed");
+			Agepopup.selectcountry();
+		System.out.println("country selected");
+		//Agepopup.agecheckbox();
+		Agepopup.Entersite();
 		}catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("popup not displayed");
@@ -37,8 +38,8 @@ public class UtilityMethods extends Baseinit {
 		
 			System.out.println("before test extent reprots");
 			htmlReporter = new ExtentHtmlReporter("./Reprots/Automationreport"+System.currentTimeMillis()+".html");
-			htmlReporter.config().setDocumentTitle("Automation Report");
-			htmlReporter.config().setReportName("FashionGO Test Automation Reprot");
+			htmlReporter.config().setDocumentTitle("IDS Automation Report");
+			htmlReporter.config().setReportName("IDS Test Automation Reprot");
 			htmlReporter.config().setTheme(Theme.DARK);
 
 			extent = new ExtentReports();
@@ -65,6 +66,7 @@ public class UtilityMethods extends Baseinit {
 	public static void takescreenshot() {
 		TakesScreenshot screenshot = (TakesScreenshot)driver;
 		File source = screenshot.getScreenshotAs(OutputType.FILE);
+		String screenshotpath = "D://Selenium//Magento_space//FashiongoTestsuite//screenshots//"+System.currentTimeMillis()+".png";
 			
 		
 

@@ -8,15 +8,15 @@ import com.ktpl.parentbase.Baseinit;
 
 public class Headersection extends Baseinit {
 
-	@FindBy(xpath = "//strong[@class='logo']//img")
+	@FindBy(xpath = "//*[@class='logo']//img") 
 	WebElement storelogo;
 	@FindBy(xpath = "//div[@class='top-sale']")
 	WebElement Headertext;
-	@FindBy(xpath = "//a[@class='action showcart'")
+	@FindBy(xpath = "//a[@class='action showcart']")
 	WebElement floatingcarticon;
-	@FindBy(xpath = "//div[@class='md-header-links']")
+	@FindBy(xpath = "//*[@class='customer-name']")
 	WebElement myaccounticon;
-	@FindBy(xpath = "//li[@class='link wishlist']")
+	@FindBy(xpath = "//div[@class='panel header']//li[@class='wishlist-nav']//a[contains(text(),'Wishlist')]")
 	WebElement wishlistlink;
 	@FindBy(xpath = "//a[@id='md-signin-link']")
 	WebElement SignInlink;
