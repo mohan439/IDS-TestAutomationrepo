@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="FashiongoTestsuite" parallel = 'tests' thread-count="1" preserve-order = "true">
+<suite name="IDSTestsuite" parallel = 'tests' thread-count="1" preserve-order = "true">
 
 <test name="LoginpageTest">
 <classes>
