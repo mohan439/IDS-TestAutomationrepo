@@ -18,7 +18,7 @@ public class Loginpage extends Baseinit {
 	@FindBy(xpath = "//a[@class='action remind']//span[contains(text(),'Forgot Your Password?')]")
 	WebElement forgotpasswordlink;
 
-	//test
+	//testtest
 	
 	public Loginpage() {
 		PageFactory.initElements(driver, this);
