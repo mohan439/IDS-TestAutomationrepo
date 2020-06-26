@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 26 09:15:26 IST 2020</td>
+<td>Started on:</td><td>Fri Jun 26 13:43:02 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>100 seconds (100747 ms)</td>
+<tr><td>Total time:</td><td>104 seconds (104227 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,58 +76,20 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.ktpl.testcases.LoginpageTest.CustomerloginTest()'><b>CustomerloginTest</b><br>Test class: com.ktpl.testcases.LoginpageTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (237, 611). Other element would receive the click: &lt;div class=&quot;modals-overlay&quot; style=&quot;z-index: 9001;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=83.0.4103.116)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RAMMOHANN-PC&apos;, ip: &apos;192.168.43.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_72&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\RAMMOH~1.NIM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0e218aa170342dcc3d7dc607ece8b2f7
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.ktpl.pages.Loginpage.logintocCustomerAccount(Loginpage.java:32)
-	at com.ktpl.testcases.LoginpageTest.CustomerloginTest(LoginpageTest.java:55)
+<td><div><pre>java.lang.AssertionError: login is not sucessfull expected [Home Page] but found [My Account]
+	at com.ktpl.testcases.LoginpageTest.CustomerloginTest(LoginpageTest.java:56)
 	at java.util.ArrayList.forEach(Unknown Source)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2009058772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2009058772'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (237, 611). Other element would receive the click: &lt;div class=&quot;modals-overlay&quot; style=&quot;z-index: 9001;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=83.0.4103.116)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RAMMOHANN-PC&apos;, ip: &apos;192.168.43.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_72&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\RAMMOH~1.NIM\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0e218aa170342dcc3d7dc607ece8b2f7
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.ktpl.pages.Loginpage.logintocCustomerAccount(Loginpage.java:32)
-	at com.ktpl.testcases.LoginpageTest.CustomerloginTest(LoginpageTest.java:55)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1479878826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1479878826'><pre>java.lang.AssertionError: login is not sucessfull expected [Home Page] but found [My Account]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at com.ktpl.testcases.LoginpageTest.CustomerloginTest(LoginpageTest.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -152,7 +114,7 @@ Session ID: 0e218aa170342dcc3d7dc607ece8b2f7
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>1</td>
+<td>6</td>
 <td>com.ktpl.testcases.LoginpageTest@30b8a058</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -170,12 +132,12 @@ Session ID: 0e218aa170342dcc3d7dc607ece8b2f7
 <tr>
 <td title='com.ktpl.testcases.LoginpageTest.LoginpagetitleTest()'><b>LoginpagetitleTest</b><br>Test class: com.ktpl.testcases.LoginpageTest</td>
 <td></td>
-<td>1</td>
+<td>0</td>
 <td>com.ktpl.testcases.LoginpageTest@30b8a058</td></tr>
 <tr>
 <td title='com.ktpl.testcases.LoginpageTest.forgotpasswordlinkTest()'><b>forgotpasswordlinkTest</b><br>Test class: com.ktpl.testcases.LoginpageTest</td>
 <td></td>
-<td>3</td>
+<td>5</td>
 <td>com.ktpl.testcases.LoginpageTest@30b8a058</td></tr>
 </table><p>
 </body>

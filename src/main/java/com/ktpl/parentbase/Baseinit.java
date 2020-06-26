@@ -30,7 +30,7 @@ public class Baseinit {
 		FileInputStream propfile;
 		try {
 			propfile = new FileInputStream(
-					"D:\\Selenium\\Magento_space\\IDS Auto\\src\\main\\java\\com\\ktpl\\properties\\ktplproperties.properties");
+					"D:\\Selenium\\Magento_space\\IDS-TestAutomationrepo\\src\\main\\java\\com\\ktpl\\properties\\ktplproperties.properties");
 			prop.load(propfile);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
