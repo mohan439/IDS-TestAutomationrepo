@@ -11,11 +11,8 @@ import com.ktpl.parentbase.Baseinit;
 public class Ageverificationpopup extends Baseinit{
 
 
-<<<<<<< HEAD
 	
-=======
 	//test
->>>>>>> 198e6a575fa48515f12a0c590d83f9d55a4fbe71
 	@FindBy(xpath="//*[@id=\"welcome-form\"]/button")
 	WebElement Entersitebutton;
 	
