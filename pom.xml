@@ -51,10 +51,8 @@
     <artifactId>extentreports</artifactId>
     <version>4.0.1</version>
 </dependency>
-<<<<<<< HEAD
   </dependencies>
 
-=======
 
   </dependencies>
   
@@ -74,5 +72,4 @@
 </plugins>
 </build>
 		
->>>>>>> 198e6a575fa48515f12a0c590d83f9d55a4fbe71
 </project>
